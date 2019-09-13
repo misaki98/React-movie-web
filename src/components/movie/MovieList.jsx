@@ -12,7 +12,8 @@ static propTypes = {}
 
     render() {
         return <div>
-            123
+            <h1>{this.props.match.params.type}</h1>
+            <p>{this.props.match.params.page}</p>
         </div>
     }
 }
