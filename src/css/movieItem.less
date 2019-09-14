@@ -1,0 +1,25 @@
+.box{
+    border:1px solid #ccc;
+    text-align: center;
+    width: 170px;
+    margin: 6px;
+    box-shadow: 0 0 6px #ccc;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    .img{
+        width: 100px;
+        height: 140px;
+    }
+    .title{
+        margin-bottom: 2px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &:hover{
+        opacity: 0.9;
+        transform: rotate(1deg) scale(1.03);
+    }
+}
